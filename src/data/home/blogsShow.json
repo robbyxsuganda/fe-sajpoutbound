@@ -1,0 +1,44 @@
+{
+  "blogs": [
+    {
+      "slug": "complete-spice-export-guide",
+      "title": "Complete Guide to Spice Export",
+      "description": "Learn strategies and tips for successfully exporting Indonesian spices to the global market",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "source": "https://www.google.com",
+      "date": "2025-01-01"
+    },
+    {
+      "slug": "ministry-releases-cardamom-export",
+      "title": "Ministry Releases Cardamom Export Worth Hundreds of Millions of Rupiah to China",
+      "description": "Bambang added that the Directorate General of Horticulture will maximize the Medicinal Plant Village program to increase cardamom productivity and added value, so it can meet the quality and quantity standards of exporting companies.",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop",
+      "source": "https://hortikultura.pertanian.go.id/?p=8650",
+      "date": "2023-02-16"
+    },
+    {
+      "slug": "ministry-releases-white-cardamom-export",
+      "title": "Ministry Releases White Cardamom Export Worth Rp 1.5 Billion to China",
+      "description": "Bambang added that the Directorate General of Horticulture will maximize the Medicinal Plant Village program to increase cardamom productivity and added value, so it can meet the quality and quantity standards of exporting companies.",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+      "source": "https://hortikultura.pertanian.go.id/?p=8650",
+      "date": "2023-02-16"
+    },
+    {
+      "slug": "indonesian-white-cardamom-enters-chinese-market",
+      "title": "25 Tons of Indonesian White Cardamom Enters Chinese Market",
+      "description": "Cardamom has high demand from many countries, one of which is the Netherlands. However, there are still not many cardamom exporters. Therefore, I really appreciate CV Suwarna Indosemesta which exports at least 20 containers of white cardamom or about 250 tons per month.",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+      "source": "https://hortikultura.pertanian.go.id/?p=8650",
+      "date": "2023-02-16"
+    },
+    {
+      "slug": "indonesian-cinnamon-exports-increase",
+      "title": "Indonesian Cinnamon Exports Increase 25% in European Market",
+      "description": "The Director General of Foreign Trade stated that Indonesian cinnamon exports to the European market experienced a significant increase of 25% compared to the previous year, showing that Indonesian product quality is increasingly recognized by the international community.",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop",
+      "source": "https://pertanian.go.id/berita",
+      "date": "2023-03-20"
+    }
+  ]
+}

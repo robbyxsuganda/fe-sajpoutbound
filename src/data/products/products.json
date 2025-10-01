@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "import-electronic-goods",
+      "title": "Electronic Goods Import",
+      "description": "Professional electronic goods import services with guaranteed security and optimal delivery speed.",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400&h=300&fit=crop",
+      "category": "import"
+    },
+    {
+      "id": 2,
+      "slug": "import-food-beverages",
+      "title": "Food & Beverages Import",
+      "description": "Import food and beverage products with international food safety standards.",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+      "category": "import"
+    },
+    {
+      "id": 3,
+      "slug": "import-fashion-textiles",
+      "title": "Fashion & Textiles Import",
+      "description": "Professional fashion and textile import services from various countries with guaranteed quality.",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop",
+      "category": "import"
+    },
+    {
+      "id": 4,
+      "slug": "import-automotive-parts",
+      "title": "Automotive & Spare Parts Import",
+      "description": "Import automotive spare parts and components with efficient and secure processes.",
+      "image": "https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=400&h=300&fit=crop",
+      "category": "import"
+    },
+    {
+      "id": 5,
+      "slug": "export-agricultural-products",
+      "title": "Agricultural Products Export",
+      "description": "Fresh agricultural products export services with international quality standards.",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+      "category": "export"
+    },
+    {
+      "id": 6,
+      "slug": "export-handicrafts",
+      "title": "Handicrafts Export",
+      "description": "Export traditional Indonesian handicrafts to international markets.",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop",
+      "category": "export"
+    },
+    {
+      "id": 7,
+      "slug": "export-textiles-garments",
+      "title": "Textiles & Garments Export",
+      "description": "Export premium quality textile and garment products to various countries.",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop",
+      "category": "export"
+    },
+    {
+      "id": 8,
+      "slug": "export-processed-foods",
+      "title": "Processed Foods Export",
+      "description": "Export traditional Indonesian processed foods with attractive packaging.",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+      "category": "export"
+    }
+  ]
+}

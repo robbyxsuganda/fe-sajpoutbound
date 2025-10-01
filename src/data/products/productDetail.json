@@ -1,0 +1,58 @@
+{
+  "product": {
+    "slug": "premium-indonesian-cinnamon",
+    "title": "Premium Indonesian Cinnamon",
+    "category": "Export",
+    "description": "Indonesian cinnamon is world-renowned for its superior quality. Our products are harvested from cinnamon trees aged at least 3 years to ensure optimal essential oil content. The drying process is done naturally under sunlight to preserve natural aroma and benefits.",
+    "cover": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop",
+    "content": "Indonesian cinnamon is world-renowned for its superior quality. Our products are harvested from cinnamon trees aged at least 3 years to ensure optimal essential oil content. The drying process is done naturally under sunlight to preserve natural aroma and benefits.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&h=600&fit=crop"
+    ],
+    "relatedBlogs": [
+      {
+        "slug": "complete-guide-cinnamon-export",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+        "date": "December 15, 2023",
+        "source": "https://sajpoutbound.com/blog",
+        "title": "Complete Guide to Cinnamon Export to International Markets",
+        "excerpt": "Learn strategies and tips for successfully exporting Indonesian cinnamon to various countries with strict international standards to ensure the best quality."
+      },
+      {
+        "slug": "indonesian-cinnamon-quality-world",
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+        "date": "December 10, 2023",
+        "source": "https://sajpoutbound.com/blog",
+        "title": "Indonesian Cinnamon Quality in the World's Eyes",
+        "excerpt": "Why Indonesian cinnamon is a favorite in the global market and how to maintain premium quality to meet high international standards."
+      },
+      {
+        "slug": "cinnamon-processing-journey",
+        "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop",
+        "date": "December 5, 2023",
+        "source": "https://sajpoutbound.com/blog",
+        "title": "Cinnamon Processing Journey from Forest to Market",
+        "excerpt": "Explore the journey of cinnamon from Indonesian forests to international consumers with guaranteed quality processes."
+      },
+      {
+        "slug": "certification-international-standards",
+        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop",
+        "date": "December 1, 2023",
+        "source": "https://sajpoutbound.com/blog",
+        "title": "Certification and International Standards for Spice Export",
+        "excerpt": "Complete guide on certifications needed to export spices to global markets with strict and trusted standards."
+      },
+      {
+        "slug": "tips-choosing-quality-cinnamon",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+        "date": "November 28, 2023",
+        "source": "https://sajpoutbound.com/blog",
+        "title": "Tips for Choosing Quality Cinnamon for Export",
+        "excerpt": "Learn how to select high-quality cinnamon that meets international export standards for the best results."
+      }
+    ]
+  }
+}

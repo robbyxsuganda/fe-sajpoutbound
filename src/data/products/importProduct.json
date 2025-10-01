@@ -1,0 +1,52 @@
+{
+  "importProducts": [
+    {
+      "id": 1,
+      "slug": "import-electronic-goods",
+      "title": "Electronic Goods Import",
+      "description": "Professional electronic goods import services with guaranteed security and optimal delivery speed.",
+      "category": "import",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 2,
+      "slug": "import-food-beverages",
+      "title": "Food & Beverages Import",
+      "description": "Import food and beverage products with international food safety standards.",
+      "category": "import",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 3,
+      "slug": "import-fashion-textiles",
+      "title": "Fashion & Textiles Import",
+      "description": "Professional fashion and textile import services from various countries with guaranteed quality.",
+      "category": "import",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 4,
+      "slug": "import-automotive-parts",
+      "title": "Automotive & Spare Parts Import",
+      "description": "Import automotive spare parts and components with efficient and secure processes.",
+      "category": "import",
+      "image": "https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 11,
+      "slug": "import-industrial-machinery",
+      "title": "Industrial Machinery Import",
+      "description": "Import industrial machinery and heavy equipment with complete technical support.",
+      "category": "import",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 12,
+      "slug": "import-chemical-materials",
+      "title": "Chemical Materials Import",
+      "description": "Import industrial chemical materials with international safety and quality standards.",
+      "category": "import",
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=300&fit=crop"
+    }
+  ]
+}

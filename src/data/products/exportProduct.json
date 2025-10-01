@@ -1,0 +1,52 @@
+{
+  "exportProducts": [
+    {
+      "id": 5,
+      "slug": "export-agricultural-products",
+      "title": "Agricultural Products Export",
+      "description": "Fresh agricultural products export services with international quality standards.",
+      "category": "export",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 6,
+      "slug": "export-handicrafts",
+      "title": "Handicrafts Export",
+      "description": "Export traditional Indonesian handicrafts to international markets.",
+      "category": "export",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 7,
+      "slug": "export-textiles-garments",
+      "title": "Textiles & Garments Export",
+      "description": "Export premium quality textile and garment products to various countries.",
+      "category": "export",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 8,
+      "slug": "export-processed-foods",
+      "title": "Processed Foods Export",
+      "description": "Export traditional Indonesian processed foods with attractive packaging.",
+      "category": "export",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 9,
+      "slug": "export-spices",
+      "title": "Spices Export",
+      "description": "Export authentic Indonesian spices with premium quality and exclusive packaging.",
+      "category": "export",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=300&fit=crop"
+    },
+    {
+      "id": 10,
+      "slug": "export-health-products",
+      "title": "Health Products Export",
+      "description": "Export health products and herbal supplements with international standards.",
+      "category": "export",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop"
+    }
+  ]
+}

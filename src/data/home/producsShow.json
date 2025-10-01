@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "slug": "cinnamon",
+      "title": "Cinnamon",
+      "description": "Cassia Cinnamon & True Ceylon Cinnamon with rich aroma, perfect for culinary and industrial use.",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+      "category": "Export"
+    },
+    {
+      "slug": "cloves",
+      "title": "Cloves",
+      "description": "Sun-dried, high-oil content cloves, ideal for food, beverages, and pharmaceuticals.",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+      "category": "Import"
+    },
+    {
+      "slug": "betel-nut",
+      "title": "Betel Nut",
+      "description": "Carefully processed Areca Nut, clean and sorted for export markets across Asia and Middle East.",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop",
+      "category": "Import"
+    },
+    {
+      "slug": "coffee-beans",
+      "title": "Coffee Beans",
+      "description": "Premium Arabica & Robusta coffee sourced from Indonesia's finest coffee-growing regions.",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop",
+      "category": "Export"
+    },
+    {
+      "slug": "turmeric",
+      "title": "Turmeric",
+      "description": "Premium quality turmeric powder and roots, rich in curcumin, perfect for health and culinary applications.",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+      "category": "Export"
+    }
+  ]
+}
