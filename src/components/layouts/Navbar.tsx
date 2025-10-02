@@ -175,7 +175,7 @@ export default function Navbar() {
             className="transition-transform duration-200 hover:scale-105"
           >
             <Image
-              src="/images/sajp-logo_copy.png"
+              src="/images/sajp.png"
               alt="SAJP Logo"
               width={80}
               height={80}
@@ -202,10 +202,10 @@ export default function Navbar() {
             className="transition-transform duration-200 hover:scale-105"
           >
             <Image
-              src="/images/sajp-logo.png"
+              src="/images/sajp.png"
               alt="SAJP Logo"
-              width={60}
-              height={60}
+              width={80}
+              height={80}
               className="transition-all duration-200 mix-blend-multiply"
               style={{ background: "transparent" }}
             />
