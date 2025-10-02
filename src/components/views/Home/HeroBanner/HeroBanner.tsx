@@ -1,8 +1,10 @@
 import bannerData from "@/data/home/banner.json";
+import { ArrowRight, ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 export default function HeroBanner() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 lg:pt-0">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
@@ -11,63 +13,60 @@ export default function HeroBanner() {
         }}
       />
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/60 to-black/80"></div>
+      {/* Simplified Overlay - Better Contrast & Readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-primary-dark)]/85 via-black/75 to-black/90"></div>
 
-      {/* Additional overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/30"></div>
+      {/* Accent Gradient for Visual Interest */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-secondary-dark)]/20 via-transparent to-transparent"></div>
 
-      {/* Hero Content dengan animasi */}
-      <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
-        {/* Enhanced excerpt badge */}
-        <div className="flex justify-center items-center mb-8">
-          <div className="relative group">
-            <span className="inline-block text-white bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-primary-light)] px-4 py-2 rounded-full text-lg font-bold shadow-2xl backdrop-blur-md border border-white/30 hover:scale-105 transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,125,28,0.5)]">
-              {bannerData.excerpt}
-            </span>
-            {/* Glow effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-primary-light)] rounded-full blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
-          </div>
+      {/* Hero Content */}
+      <div className="relative text-center z-10 px-4 sm:px-6 lg:px-12 max-w-6xl mx-auto">
+        {/* Pre-title Badge */}
+        <div className="mb-4 sm:mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <span className="inline-block bg-gradient-to-r from-[var(--color-secondary-dark)] to-[var(--color-secondary-light)] text-[var(--color-accent)] text-xs sm:text-sm md:text-base lg:text-lg font-bold px-3 py-1.5 sm:px-4 sm:py-2 rounded-full shadow-2xl backdrop-blur-md border border-white/30 hover:scale-105 transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,125,28,0.5)]">
+            {bannerData.preTitle}
+          </span>
         </div>
 
-        {/* Enhanced title dengan text effects */}
-        <h1 className="text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-8 leading-tight drop-shadow-2xl">
-          <span className="bg-gradient-to-r from-white via-white to-[var(--color-accent-light)] bg-clip-text text-transparent">
-            {bannerData.title}
-          </span>
+        {/* Main Heading */}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl animate-in fade-in slide-in-from-bottom-6 duration-1000 bg-gradient-to-r from-white via-white to-[var(--color-accent-light)] bg-clip-text text-transparent">
+          {bannerData.title}
         </h1>
 
-        {/* Enhanced description */}
-        <p className="text-xl md:text-2xl lg:text-3xl text-white/95 mb-12 max-w-4xl mx-auto leading-relaxed drop-shadow-lg font-light">
+        {/* Description */}
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/90 mb-8 sm:mb-10 mx-auto leading-relaxed drop-shadow-lg font-light animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 text-center max-w-4xl">
           {bannerData.description}
         </p>
 
-        {/* Enhanced CTA button */}
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <a
-            href={bannerData.link.href}
-            className="group relative bg-gradient-to-r from-[var(--color-secondary)] to-[var(--color-secondary-light)] text-white px-8 py-4 rounded-full text-xl font-bold hover:from-[var(--color-secondary-light)] hover:to-[var(--color-secondary)] transition-all duration-500 hover:scale-110 hover:shadow-2xl shadow-xl border-2 border-white/30 backdrop-blur-sm overflow-hidden"
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4 items-center justify-center mb-12 sm:mb-16 animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-300">
+          {/* Primary CTA */}
+          <Link
+            href={bannerData.link[0].href}
+            className="group relative bg-[var(--color-primary)] text-white px-4 py-2.5 sm:px-6 sm:py-3 md:px-8 md:py-3.5 rounded-lg sm:rounded-xl text-sm sm:text-base font-medium hover:bg-[var(--color-primary-light)] transition-all duration-300 hover:scale-[1.02] shadow-lg w-full sm:w-auto text-center"
           >
-            {/* Button background animation */}
-            <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
-            <span className="relative flex items-center gap-3">
-              {bannerData.link.text}
-              <svg
-                className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
+            <span className="relative flex items-center justify-center gap-2">
+              {bannerData.link[0].text}
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </span>
-          </a>
+          </Link>
+
+          {/* Secondary CTA */}
+          <Link
+            href={bannerData.link[1].href}
+            className="group relative bg-white/10 backdrop-blur-sm text-white px-4 py-2.5 sm:px-6 sm:py-3 md:px-8 md:py-3.5 rounded-lg sm:rounded-xl text-sm sm:text-base font-medium border border-white/30 hover:bg-white/20 transition-all duration-300 hover:scale-[1.02] w-full sm:w-auto text-center"
+          >
+            <span className="relative flex items-center justify-center gap-2">
+              {bannerData.link[1].text}
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </span>
+          </Link>
         </div>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-6 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6 text-[var(--color-accent)]" />
       </div>
     </section>
   );
